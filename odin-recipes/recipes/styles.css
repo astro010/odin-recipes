@@ -1,6 +1,12 @@
+* {
+    margin: none;
+    padding: none;
+}
+
+
 body {
     font-family: unit-slab, Helvetica Neue, Helvetica, Arial, sans-serif;
-    background-color: #F5f5f5;
+    background-color: #F6E1C3;
     margin: 40px 80px 40px 80px;
 }
 
@@ -17,7 +23,7 @@ body {
 
 .header-main:hover {
     color: #F4BCBB;
-    cursor: crosshair;
+    cursor: pointer;
 }
 
 .nav-container {
@@ -36,6 +42,11 @@ nav ul li {
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 /* .nav-links {
@@ -74,15 +85,28 @@ nav ul li {
 .main-links:hover,
 a.selected {
     color: #F4BCBB;
-    border-bottom: 2px solid #F4BCBB;
+    border-bottom: 2px solid #E9A178;
 }
 
 .container {
     margin-top: 200px;
 }
 
+.selected {
+    border-bottom: 2px solid #E9A178;
+}
 
-/* ------------- LASAGNA ------------ */
+.footer-main {
+    margin: 100px 0 0 0;
+    text-align: center;
+    background-color: #E9A178;
+    width: 100%;
+    padding: 25px 0;
+    font-weight: 300;
+}
+
+
+/* ------------- MAIN PAGES ------------ */
 
 .food-headings {
     text-align: center;
